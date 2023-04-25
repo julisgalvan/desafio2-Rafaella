@@ -1,0 +1,183 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #287079;   
+}
+
+.caixa {
+    position: relative;
+    width: 1000px;
+    margin: 10 auto;
+}
+
+nav {
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;  
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 20px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+   
+form {
+    margin: 100px;
+    
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+input {
+    display: inline-block;
+    margin: 0 0 40px;
+    padding: 10px 25px;
+    width: 40%;
+    font-size: large;
+    border: rgb(79, 13, 60);
+    border-style: double;
+    border-width: 12px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+button {
+    width: 80%;
+    padding: 30px 20;
+    background-color: rgb(79, 13, 60);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:rgb(79, 13, 60);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 0 20px;
+    margin-left: 150px;
+    
+}
+
+button:hover {
+    background: rgb(138, 50, 125);
+    transform: scale(1.2);
+}
+
+style {
+    display: block;
+    text-align: center;
+}
+
+table {
+    margin: 100px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px  15px;
+}
+
+div {
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 35px;
+    background: #287079;
+   
+}
+
+.botao {
+    display:block; 
+    padding: 0.5%;   
+}
+
+p {
+    margin:0 0 10px;
+}
+
+img {
+    display: center;
+}
